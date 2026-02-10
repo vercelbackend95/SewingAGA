@@ -1,10 +1,12 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { About3 } from "@/components/about3";
+import { AnimatedListDemo } from "@/components/sections/animated-list-demo";
 ---
 
 <BaseLayout>
   <main>
     <About3 client:load />
+    <AnimatedListDemo client:load />
   </main>
 </BaseLayout>
