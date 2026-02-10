@@ -158,12 +158,6 @@ const defaultCompanies = [
   },
 ];
 
-const defaultAchievements = [
-  { label: "Companies ", value: "300+" },
-  { label: "Projects Finalized", value: "800+" },
-  { label: "Happy Customers", value: "99%" },
-  { label: "Recognized Awards", value: "10+" },
-];
 
 const defaultProps = {
   title: "About Us",
@@ -188,8 +182,13 @@ const defaultProps = {
   },
   companiesTitle: "Valued by clients worldwide",
   companies: defaultCompanies,
-  achievementsTitle: "Our Achievements in Numbers",
+  achievementsTitle: "Our work in numbers",
   achievementsDescription:
-    "Providing businesses with effective tools to improve workflows, boost efficiency, and encourage growth.",
-  achievements: defaultAchievements,
+    "Practical results, clean finish — and a lot of happy returning clients.",
+  achievements: [
+    { label: "Years of experience", value: "10+" },
+    { label: "Alterations completed", value: "1,500+" },
+    { label: "Repeat customers", value: "70%+" },
+    { label: "Typical turnaround", value: "2–5 days" },
+  ],
 };
